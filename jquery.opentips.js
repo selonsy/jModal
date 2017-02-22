@@ -148,7 +148,7 @@ $(function () {
             var html = _replace(confirm_html, options, modal_type.confirm);
             that.html(html);
 
-            that.$confirm = that.find(".ds-tips.dy-feedback");
+            that.$confirm = that.find(".ds-tips.dy-modal");
             that.$confirm.$ok = that.$confirm.find(".btn-enter");
             that.$confirm.$cancel = that.$confirm.find(".btn-cancel");
 
