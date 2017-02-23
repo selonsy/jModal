@@ -11,6 +11,12 @@ a jquery plugin to encapsulation Alert/Confirm/Feedback actions with modal.
 ### Example
 
 ```javascript
+
+//first, you need to place a div which id is `ds-modal` in your body.
+<div id="ds-modal">
+   <!--ds modal-->
+</div>
+
 //alert
 DSModal.alert({ msg: "msg" });
 DSModal.alert({ msg: "msg", type: false });
